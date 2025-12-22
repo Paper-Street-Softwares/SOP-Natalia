@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import content from '../../content/content'
 import { getWhatsappLink } from '../util/WhatsappLink'
-import contentLp01 from '../../content/contentLp01'
 
 export default function WhatsappAnimated() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -69,7 +68,7 @@ export default function WhatsappAnimated() {
           body: JSON.stringify({
             nome,
             email: telefone,
-            origem: contentLp01.origem,
+            origem: content.origem,
           }),
         }
       )
