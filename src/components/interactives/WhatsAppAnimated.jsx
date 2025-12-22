@@ -85,7 +85,7 @@ export default function WhatsappAnimated() {
         target="_blanck"
         rel="noopener noreferrer"
         className="fixed bottom-4 right-4 z-50 inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary border border-white/30"
-        aria-label="WhatsApp para contato"
+        aria-label="Botão flutuante de WhatsApp para contato"
       >
         <div className="absolute z-10 top-0 left-0 w-full h-full rounded-full bg-primary animate-ping border border-white"></div>
         <div className="relative z-20 ">

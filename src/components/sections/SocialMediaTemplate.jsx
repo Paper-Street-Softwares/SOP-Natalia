@@ -40,6 +40,7 @@ function SocialMediaTemplate() {
                     <a
                       href={content.texts.links.instagram}
                       target="_blank"
+                      aria-label="Link para Instagram"
                       rel="noopener noreferrer"
                       className="group flex items-center gap-6 p-6 rounded-2xl border border-border hover:border-primary/30 hover:shadow-lg transition-all bg-white"
                     >
@@ -106,6 +107,8 @@ function SocialMediaTemplate() {
                     <a
                       href={content.texts.links.tiktok}
                       target="_blank"
+                      rel="nopener noreferrer"
+                      aria-label="Link para o TikTok"
                       className="group flex items-center gap-6 p-6 rounded-2xl border border-border hover:border-primary/30 hover:shadow-lg transition-all bg-white"
                     >
                       <div className="w-14 h-14 rounded-full bg-blue-700 text-white flex items-center justify-center shrink-0">
