@@ -402,7 +402,7 @@ const content = {
       },
       miniTag: 'QUEM É A DRA. NATÁLIA MENDES',
       title: (
-        <span>
+        <span className="font-mainFont">
           {' '}
           Minha <span className="italic text-primary">trajetória</span>
         </span>
@@ -421,7 +421,7 @@ const content = {
       ),
       buttonModalLabelAbout: 'Continuar lendo',
       modal: (
-        <p>
+        <p className="text-mutedForeground font-secondFont">
           Minha jornada profissional é construída sobre a firme crença de que o
           Direito deve ser uma ferramenta de dignidade e segurança. O Direito
           Previdenciário, em especial, é a ponte que liga o esforço de uma vida

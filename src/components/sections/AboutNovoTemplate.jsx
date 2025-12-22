@@ -98,7 +98,7 @@ function AboutNovoTemplate() {
           <Dialog
             className="font-secondFont"
             closeIcon={<X size={20} />}
-            header={<span className="text-black">{modalTitle}</span>}
+            header={<span className="">{modalTitle}</span>}
             visible={visible}
             onHide={() => setVisible(false)}
             style={{ width: '50vw' }}
@@ -108,9 +108,9 @@ function AboutNovoTemplate() {
               '641px': '85vw',
             }}
           >
-            <div className="text-paragraph3 text-black">
+            <div className="text-paragraph3">
               <div className="">
-                <p className="mt-[15px] mb-[20px] text-black">
+                <p className="mt-[15px] mb-[20px]">
                   {content.texts.about.modal}
                 </p>
                 <ButtonReflexo

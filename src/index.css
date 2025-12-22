@@ -313,3 +313,7 @@ body {
   height: 50px !important;
   flex-shrink: 0 !important; /* Impede que o botão diminua se o tooltip aumentar */
 }
+
+.p-dialog-header {
+  padding-bottom: 0px;
+}
