@@ -30,18 +30,20 @@ function FooterNovoTemplate({ mapa }) {
   return (
     <SectionArea className="bg-primary">
       <SectionWrapper>
-        <footer className="text-white">
-          <div className="container mx-auto px-6">
+        <footer className="text-fontLighterFooter">
+          <div className="container mx-auto">
             <div
-              className={`grid md:grid-cols-2 ${grid} items-center gap-12 mb-16`}
+              className={`grid md:grid-cols-3 ${grid} items-center gap-12 mb-16 w-full`}
             >
               <div className="space-y-6">
                 <img
                   src={content.texts.navbar.logo.img}
                   alt={content.texts.navbar.logo.alt}
                   className="w-[60%] tablet1:w-[70%] desktop1:w-[50%]"
+                  width={187}
+                  height={119}
                 />
-                <p className="text-white/60 leading-relaxed font-secondFont font-light">
+                <p className="text-fontLighterFooter leading-relaxed font-secondFont font-light">
                   {content.texts.footer.footerText}
                 </p>
                 <div className="flex gap-4">
@@ -81,21 +83,21 @@ function FooterNovoTemplate({ mapa }) {
                 <h4 className="font-bold font-mainFont text-lg mb-6">
                   Contato
                 </h4>
-                <ul className="space-y-4 text-white/60">
+                <ul className="space-y-4 text-fontLighterFooter">
                   <li className="flex items-start gap-3">
-                    <MapPin className="w-5 h-5 shrink-0 text-white" />
+                    <MapPin className="w-5 h-5 shrink-0 text-fontLighterFooter" />
                     <span className="font-secondFont font-light">
                       {content.texts.infos.adress}
                     </span>
                   </li>
                   <li className="flex items-center gap-3">
-                    <Phone className="w-5 h-5 shrink-0 text-white" />
+                    <Phone className="w-5 h-5 shrink-0 text-fontLighterFooter" />
                     <span className="font-secondFont font-light">
                       {content.texts.infos.phone}
                     </span>
                   </li>
                   <li className="flex items-center gap-3">
-                    <Mail className="w-5 h-5 shrink-0 text-white" />
+                    <Mail className="w-5 h-5 shrink-0 text-fontLighterFooter" />
                     <span className="font-secondFont font-light text-paragraph3">
                       {content.texts.infos.email}
                     </span>
@@ -119,15 +121,15 @@ function FooterNovoTemplate({ mapa }) {
               )}
             </div>
 
-            <div className="border-t border-white/10 pt-8 text-center font-secondFont text-sm text-white/40">
+            <div className="border-t border-white/10 pt-8 text-center font-secondFont text-sm text-fontLighterFooter">
               <p>&copy; {content.texts.footer.copyrightLine}</p>
               <br />
-              <p className=" text-sm text-fontLighter/50 font-secondFont">
+              <p className=" text-sm text-fontLighterFooter font-secondFont">
                 {content.texts.footer.pontos.ponto1} •{' '}
                 {content.texts.footer.pontos.ponto2} •{' '}
                 {content.texts.footer.pontos.ponto3}
               </p>
-              <div className="mt-4 text-sm text-fontLighter/50 font-secondFont ">
+              <div className="mt-4 text-sm text-fontLighterFooter font-secondFont ">
                 <button
                   onClick={abrirModal}
                   aria-label="Abre um Modal com os termos da Política de privacidade"

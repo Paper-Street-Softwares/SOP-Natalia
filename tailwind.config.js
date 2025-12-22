@@ -11,6 +11,7 @@ export const theme = {
       minititle: '#6E234B', //bg minitag de seções escuras
       textPadrao: '#1C312B',
       secondary: '#F0EBE4',
+      fontLighterFooter: '#F9C6E1',
 
       // classes template Novo
       mutedForeground: '#5B706A',

@@ -30,6 +30,8 @@ function SocialMediaTemplate() {
                     src={content.texts.about.aboutSocial.img.img}
                     alt={content.texts.about.aboutSocial.img.alt}
                     className="relative rounded-[2rem] shadow-2xl border-4 border-white"
+                    width={448}
+                    height={618}
                   />
                 </div>
               </div>

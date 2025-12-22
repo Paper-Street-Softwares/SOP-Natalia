@@ -19,6 +19,8 @@ function FeaturesNovaTemplate() {
                     src={content.texts.features.imgFeatures}
                     alt={content.texts.features.alt}
                     className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700"
+                    width={798}
+                    height={798}
                   />
                 </div>
                 <div className="absolute -bottom-6 -left-6 bg-primary text-white p-8 rounded-tr-3xl rounded-bl-3xl shadow-xl max-w-xs">
