@@ -88,7 +88,7 @@ function AboutNovoTemplate() {
                   <div className="absolute inset-0 bg-primary/5 rounded-[3rem] rotate-3 scale-110" />
                   <img
                     src={content.texts.about.imagem.img}
-                    alt="Sócios Amaral e Peres"
+                    alt={content.texts.about.imagem.alt}
                     className="relative rounded-[3rem] w-full scale-105 hover:scale-100 transition-transform duration-700"
                   />
                 </div>

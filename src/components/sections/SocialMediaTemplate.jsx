@@ -28,7 +28,7 @@ function SocialMediaTemplate() {
                   <div className="absolute -inset-4 bg-gradient-to-tr from-purple-500 to-orange-400 rounded-[2.5rem] opacity-20 blur-2xl" />
                   <img
                     src={content.texts.about.aboutSocial.img.img}
-                    alt="Instagram do profissional"
+                    alt={content.texts.about.aboutSocial.img.alt}
                     className="relative rounded-[2rem] shadow-2xl border-4 border-white"
                   />
                 </div>

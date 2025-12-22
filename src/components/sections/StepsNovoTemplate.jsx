@@ -16,7 +16,7 @@ function StepsNovoTemplate() {
                 <div className="absolute inset-0 bg-primary/5 rounded-[2rem] rotate-6 opacity-110 " />
                 <img
                   src={content.texts.steps.img}
-                  alt="Passo a passo"
+                  alt={content.texts.steps.alt}
                   className="relative rounded-[2rem] shadow-xl w-[90%] m-auto scale-105 hover:scale-100 transition-transform duration-700"
                 />
               </div>
