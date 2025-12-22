@@ -15,7 +15,7 @@ function FaqNovoTemplate() {
     <SectionArea id="faq">
       <SectionWrapper>
         <section className=" bg-white w-full">
-          <div className="container mx-auto max-w-3xl">
+          <div className="container mx-auto w-full">
             <div className="text-center mb-6">
               <span className="text-primary font-bold font-secondFont tracking-wider uppercase text-xs mb-2 block">
                 {content.texts.faq.miniTag}

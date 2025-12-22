@@ -20,17 +20,18 @@ export default function Index() {
   return (
     <>
       <NavbarNovaTemplate />
-      <HeroTemplateNovo />
-      <FeaturesNovaTemplate />
-      <AboutNovoTemplate />
-      <SocialMediaTemplate />
-      {/* <RegionsSectionTemplate /> */}
-      {/* <TeamNovoTemplate /> */}
-      <StepsNovoTemplate />
-      <CtaNovoTemplate />
-      <FaqNovoTemplate />
-      <FooterNovoTemplate mapa={false} />
-      <WhatsappAnimated />
+      <main>
+        <HeroTemplateNovo />
+        <FeaturesNovaTemplate />
+        <AboutNovoTemplate />
+        <SocialMediaTemplate />
+        {/* <RegionsSectionTemplate /> */}
+        {/* <TeamNovoTemplate /> */}
+        <StepsNovoTemplate />
+        <FaqNovoTemplate />
+        <FooterNovoTemplate mapa={false} />
+        <WhatsappAnimated />
+      </main>
     </>
   )
 }

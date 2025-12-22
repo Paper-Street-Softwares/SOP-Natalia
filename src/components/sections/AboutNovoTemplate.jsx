@@ -57,9 +57,9 @@ function AboutNovoTemplate() {
                       <CheckCircle2 className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="font-bold font-mainFont text-foreground">
+                      <h1 className="font-bold font-mainFont text-foreground">
                         Atendimento Personalizado
-                      </h4>
+                      </h1>
                       <p className="text-sm font-secondFont font-light text-mutedForeground">
                         Cada cliente é único, e nossas estratégias são
                         desenhadas sob medida.
@@ -72,9 +72,9 @@ function AboutNovoTemplate() {
                       <CheckCircle2 className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="font-bold font-mainFont text-foreground">
+                      <h1 className="font-bold font-mainFont text-foreground">
                         Transparência Total
-                      </h4>
+                      </h1>
                       <p className="text-sm font-secondFont font-light text-mutedForeground">
                         Você acompanha cada passo do seu processo com clareza.
                       </p>
@@ -90,6 +90,8 @@ function AboutNovoTemplate() {
                     src={content.texts.about.imagem.img}
                     alt={content.texts.about.imagem.alt}
                     className="relative rounded-[3rem] w-full scale-105 hover:scale-100 transition-transform duration-700"
+                    width={643}
+                    height={683}
                   />
                 </div>
               </div>

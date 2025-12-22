@@ -99,6 +99,9 @@ function HeroTemplateNovo() {
                   src={content.texts.hero.heroDefaultImage}
                   alt={content.texts.hero.alt}
                   className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700"
+                  width={790}
+                  height={992}
+                  fetchPriority="high"
                 />
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />

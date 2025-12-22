@@ -18,6 +18,8 @@ function StepsNovoTemplate() {
                   src={content.texts.steps.img}
                   alt={content.texts.steps.alt}
                   className="relative rounded-[2rem] shadow-xl w-[90%] m-auto scale-105 hover:scale-100 transition-transform duration-700"
+                  width={726}
+                  height={726}
                 />
               </div>
 

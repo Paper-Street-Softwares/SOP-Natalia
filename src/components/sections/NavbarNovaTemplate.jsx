@@ -34,12 +34,14 @@ function NavbarNovaTemplate() {
             : 'bg-transparent border-border/40 py-3'
         }`}
       >
-        <div className="container mx-auto flex items-center m-auto max-w-[1215px] w-[90%] justify-between">
+        <div className="container mx-auto flex items-center m-auto max-w-[1215px] w-[90%] md:w-[86%] justify-between">
           <div className="flex flex-col z-50 relative w-[200px]">
             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
               className="w-[60%] tablet1:w-[70%] desktop1:w-[80%]"
+              width={160}
+              height={102}
             />
           </div>
 
@@ -80,9 +82,17 @@ function NavbarNovaTemplate() {
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
-              <X className="text-primary" />
+              <X
+                aria-label="Botão de fechar a Sidebar"
+                className="text-primary"
+              />
             ) : (
-              <Menu width={30} height={30} className="text-primary" />
+              <Menu
+                aria-label="botão Meu da Sidebar"
+                width={30}
+                height={30}
+                className="text-primary"
+              />
             )}
           </button>
 
