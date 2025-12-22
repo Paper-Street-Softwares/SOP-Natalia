@@ -50,9 +50,9 @@ function SocialMediaTemplate() {
                         <Instagram className="w-7 h-7" />
                       </div>
                       <div>
-                        <h4 className="font-bold font-mainFont text-lg text-textPadrao">
+                        <h1 className="font-bold font-mainFont text-lg text-textPadrao">
                           Instagram
-                        </h4>
+                        </h1>
                         <p className="text-mutedForeground font-secondFont font-light text-sm">
                           Dicas diárias e bastidores
                         </p>
@@ -73,9 +73,9 @@ function SocialMediaTemplate() {
                       </div>
 
                       <div>
-                        <h4 className="font-bold font-mainFont text-lg">
+                        <h1 className="font-bold font-mainFont text-lg">
                           Facebook
-                        </h4>
+                        </h1>
                         <p className="text-mutedForeground font-secondFont font-light text-sm">
                           Notícias e artigos completos
                         </p>
@@ -95,9 +95,9 @@ function SocialMediaTemplate() {
                         <Linkedin className="w-7 h-7" />
                       </div>
                       <div>
-                        <h4 className="font-bold font-mainFont text-lg">
+                        <h1 className="font-bold font-mainFont text-lg">
                           LinkedIn
-                        </h4>
+                        </h1>
                         <p className="text-mutedForeground font-secondFont font-light text-sm">
                           Conteúdo corporativo
                         </p>
@@ -125,9 +125,9 @@ function SocialMediaTemplate() {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-bold font-mainFont text-lg text-textPadrao">
+                        <h1 className="font-bold font-mainFont text-lg text-textPadrao">
                           TikTok
-                        </h4>
+                        </h1>
                         <p className="text-mutedForeground font-secondFont font-light text-sm">
                           Conteúdo corporativo
                         </p>

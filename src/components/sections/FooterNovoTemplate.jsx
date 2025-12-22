@@ -67,6 +67,7 @@ function FooterNovoTemplate({ mapa }) {
                     <li key={item}>
                       <Link
                         to={ids[index]}
+                        aria-label={`Link para ${item}`}
                         smooth={true}
                         duration={500}
                         offset={-90}

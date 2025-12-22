@@ -50,6 +50,7 @@ function NavbarNovaTemplate() {
             {labels.map((item, index) => (
               <Link
                 to={ids[index]}
+                aria-label={`Link para ${item}`}
                 smooth={true}
                 duration={500}
                 offset={-90}
