@@ -17,7 +17,7 @@ function FeaturesNovaTemplate() {
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-[3/3]">
                   <img
                     src={content.texts.features.imgFeatures}
-                    alt="Atendimento Jurídico"
+                    alt={content.texts.features.alt}
                     className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700"
                   />
                 </div>

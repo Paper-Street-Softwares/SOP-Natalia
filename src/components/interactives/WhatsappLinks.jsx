@@ -1,10 +1,10 @@
-import contentLp01 from "../../content/contentLp01";
-import MotionDivDownToUp from "../animation/MotionDivDownToUp";
-import WhatsappForm from "./WhatsappForm";
-import Button from "./Button";
-import content from "../../content/content";
+// import contentLp01 from "../../content/contentLp01";
+import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import WhatsappForm from './WhatsappForm'
+import Button from './Button'
+import content from '../../content/content'
 
-const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
+const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`
 
 export default function WhatsAppLinks({ form }) {
   return form ? (
@@ -12,15 +12,15 @@ export default function WhatsAppLinks({ form }) {
       className="flex flex-col items-center justify-center min-h-screen bg-scroll bg-colorBlack bg-center bg-cover bg-opacity-70 desktop1:bg-fixed"
       style={{
         backgroundImage: `url(${contentLp01.cta.bgImg})`,
-        backgroundRepeat: "",
+        backgroundRepeat: '',
       }}
     >
       <div className="flex items-center justify-center w-full h-screen bg-colorBlack bg-opacity-70">
         <div className="flex flex-col items-center p-4">
           <MotionDivDownToUp className="flex justify-center desktop1:justify-start">
             <img
-              src={contentLp01.hero.logo.logoImg}
-              alt={contentLp01.hero.logo.alt}
+              src={content.texts.navbar.logo.img}
+              alt={content.texts.navbar.logo.alt}
               className="mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[270px]"
             />
           </MotionDivDownToUp>
@@ -36,7 +36,7 @@ export default function WhatsAppLinks({ form }) {
             <MotionDivDownToUp>
               <button
                 className="mt-12 bg-bgSectionLight text-black font-bold px-8 py-2 rounded transition hover:scale-110"
-                onClick={() => (window.location.href = "/")}
+                onClick={() => (window.location.href = '/')}
               >
                 Voltar
               </button>
@@ -57,8 +57,8 @@ export default function WhatsAppLinks({ form }) {
         <div className="flex flex-col items-center p-4">
           <MotionDivDownToUp className="flex justify-center desktop1:justify-start">
             <img
-              src={contentLp01.hero.logo.logoImg}
-              alt={contentLp01.hero.logo.alt}
+              src={content.texts.navbar.logo.img}
+              alt={content.texts.navbar.logo.alt}
               className="mb-[60px] max-w-[280px] phone2:max-w-[320px] phone3:max-w-[270px]"
             />
           </MotionDivDownToUp>
@@ -133,7 +133,7 @@ export default function WhatsAppLinks({ form }) {
             <MotionDivDownToUp>
               <button
                 className="mt-12 bg-bgSectionLight text-black font-bold px-8 py-2 rounded transition hover:scale-110"
-                onClick={() => (window.location.href = "/")}
+                onClick={() => (window.location.href = '/')}
               >
                 Voltar
               </button>
@@ -142,5 +142,5 @@ export default function WhatsAppLinks({ form }) {
         </div>
       </div>
     </div>
-  );
+  )
 }

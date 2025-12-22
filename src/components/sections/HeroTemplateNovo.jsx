@@ -97,7 +97,7 @@ function HeroTemplateNovo() {
               <div className="relative rounded-[2.5rem] overflow-hidden aspect-[3/4] md:aspect-[4/5] lg:aspect-[3/4] border-[8px] border-white ring-1 ring-black/5 bg-gray-100">
                 <img
                   src={content.texts.hero.heroDefaultImage}
-                  alt="Advogados Amaral & Peres"
+                  alt={content.texts.hero.alt}
                   className="w-full h-full object-cover scale-105 hover:scale-100 transition-transform duration-700"
                 />
 

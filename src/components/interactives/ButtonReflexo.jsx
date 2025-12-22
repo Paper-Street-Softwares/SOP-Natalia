@@ -25,7 +25,9 @@ export default function ButtonReflexo({
   return (
     <a
       target="_blank"
+      rel="noopener noreferrer"
       href={link}
+      aria-label="Botão de contato"
       className={`${className}
           relative
           overflow-hidden

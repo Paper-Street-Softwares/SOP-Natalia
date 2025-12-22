@@ -40,6 +40,7 @@ const Button = React.forwardRef(function Button(
 
   return (
     <Comp
+      aria-label="Botão de Interação"
       ref={ref}
       href={href}
       onClick={onClick}
