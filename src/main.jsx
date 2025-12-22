@@ -9,7 +9,7 @@ import Index from './pages/Index.jsx'
 // import WhatsAppLinks from './components/interactives/WhatsappLinks.jsx'
 
 // Layout fixo para o modo "site"
-import SiteLayout from './pages/SiteLayoult.jsx'
+// import SiteLayout from './pages/SiteLayoult.jsx'
 // import Features from "./components/sections/Features.jsx";
 // import About from "./components/sections/About.jsx";
 // import Faq from "./components/sections/Faq.jsx";
@@ -19,7 +19,7 @@ import './styles/backgrounds.css'
 import BlogPosts from './components/sections/BlogPosts.jsx'
 // import Maps from './components/sections/Maps.jsx'
 // import AboutSocial from './components/sections/AboutSocial.jsx'
-import CartaoSocio from './components/sections/CartaoSocio.jsx'
+// import CartaoSocio from './components/sections/CartaoSocio.jsx'
 import { ColorModeProvider } from './assets/context/ColorModeContext.jsx'
 // import IndexLpi from './pages/IndexLpi.jsx'
 
@@ -41,19 +41,19 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <ColorModeProvider>
     {' '}
     <Router>
-      {mode === 'LP' ? (
-        <Routes>
-          <Route path="/" element={<Index mode={mode} />} />
-          {/* <Route path="/" element={<IndexLpi />} /> */}
+      {/* {mode === 'LP' ? ( */}
+      <Routes>
+        <Route path="/" element={<Index mode={mode} />} />
+        {/* <Route path="/" element={<IndexLpi />} /> */}
 
-          <Route path="/:nome" element={<CartaoSocio />} />
-          {/* <Route path="/" element={<Lp01 />} /> */}
-          {/* <Route path="/whatsapp" element={<WhatsAppLinks />} /> */}
+        {/* <Route path="/:nome" element={<CartaoSocio />} /> */}
+        {/* <Route path="/" element={<Lp01 />} /> */}
+        {/* <Route path="/whatsapp" element={<WhatsAppLinks />} /> */}
 
-          {/* <Route path="/whatsapp" element={<WhatsAppLinks form={true} />} /> */}
-        </Routes>
-      ) : (
-        <Routes>
+        {/* <Route path="/whatsapp" element={<WhatsAppLinks form={true} />} /> */}
+      </Routes>
+      {/* ) : ( */}
+      {/* <Routes>
           <Route path="/" element={<SiteLayout mode={mode} />} />
           <Route path="home" element={<SiteLayout mode={mode} />} />
           <Route
@@ -95,7 +95,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             element={<SiteLayout mode={mode} section={<Maps />} />}
           />
         </Routes>
-      )}
+      )} */}
     </Router>
   </ColorModeProvider>
 )
