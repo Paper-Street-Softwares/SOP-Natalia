@@ -14,9 +14,9 @@ function HeroTemplateNovo() {
       paddingTopAndBottom={false}
       className="bg-transparent"
     >
-      <section className="relative min-h-[90vh] w-full pt-[150px] pb-[90px] flex items-center justify-center overflow-hidden font-mainFont">
+      <section className="relative min-h-[90vh] w-full pt-[100px] pb-[70px] phone3:pt-[126px] tablet1:pt-[130px] desktop1:pt-[180px] flex items-center justify-center overflow-hidden font-mainFont">
         {/* Abstract Background Shapes */}
-        <div className="absolute top-0 right-[-10px] h-full w-[60%] bg-secondary/50 -skew-x-12 translate-x-1/4 z-0" />
+        <div className="absolute top-0 right-[-10px] h-full w-[80%] bg-terciary -skew-x-12 translate-x-2/4 z-0" />
         <div className="absolute bottom-0 left-0 w-[40%] h-1/2 bg-gradient-to-tr from-secondary/20 to-transparent rounded-full blur-3xl -translate-x-1/4 translate-y-1/4 z-0" />
         <SectionWrapper>
           <div className="container relative z-10 grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
@@ -94,7 +94,7 @@ function HeroTemplateNovo() {
               transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
               className="relative order-1 lg:order-2"
             >
-              <div className="relative rounded-[2.5rem] overflow-hidden aspect-[3/4] md:aspect-[4/5] lg:aspect-[3/4] border-[8px] border-white ring-1 ring-black/5 bg-gray-100">
+              <div className="relative rounded-[2.5rem] overflow-hidden aspect-[3/4] md:aspect-[4/5] shadow-2xl lg:aspect-[3/4] border-[8px] border-white ring-1 ring-black/5 bg-gray-100">
                 <img
                   src={content.texts.hero.heroDefaultImage}
                   alt={content.texts.hero.alt}
@@ -114,7 +114,7 @@ function HeroTemplateNovo() {
                   className="absolute bottom-8 left-6 right-6 md:left-8 md:right-8 bg-white/95 backdrop-blur-md p-2 phone3:p-6 rounded-2xl shadow-lg border border-white/50 z-10"
                 >
                   <div className="flex items-center gap-4 phone3:gap-5">
-                    <div className="flex-shrink-0 w-8 h-8 phone3:w-12 phone3:h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                    <div className="flex-shrink-0 w-8 h-8 phone3:w-12 phone3:h-12 bg-secondary rounded-full flex items-center justify-center text-primary">
                       <Phone className="w-4 h-4 phone3:w-6 phone3:h-6" />
                     </div>
                     <div>

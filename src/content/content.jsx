@@ -92,9 +92,9 @@ const content = {
       menuItems: [
         'Início',
         'Serviços',
-        'Sobre Nós',
+        'Sobre',
         // 'Blog',
-        'Perguntas Frequentes',
+        'Perguntas',
         // 'Mapa',
       ],
       menuId: ['home', 'feature', 'about', 'faq'],

@@ -5,12 +5,16 @@ export const theme = {
     colors: {
       // Principais
 
-      primary: '#6E234B',
-      buttonColor: '#6E234B',
-      minititleDark: '#6E234B', //bg minitag de seções claras
-      minititle: '#6E234B', //bg minitag de seções escuras
+      primary: '#6e4623',
+      buttonColor: '#6e4623',
+      minititleDark: '#6e4623', //bg minitag de seções claras
+      minititle: '#6e4623', //bg minitag de seções escuras
+      bgIcons: '#E0E2E9',
+      bgFaixaHero: '#F1F3F7',
       textPadrao: '#1C312B',
-      secondary: '#F0EBE4',
+      secondary: '#e9e4e0',
+      terciary: '#f7f3f1',
+      quartenary: '#fcfbfa',
       fontLighterFooter: '#F9C6E1',
 
       // classes template Novo

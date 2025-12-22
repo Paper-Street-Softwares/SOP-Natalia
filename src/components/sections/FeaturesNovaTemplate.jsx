@@ -10,7 +10,7 @@ function FeaturesNovaTemplate() {
   return (
     <SectionArea id="feature">
       <SectionWrapper>
-        <section className="p bg-white relative font-mainFont ">
+        <section className=" bg-white relative font-mainFont ">
           <div className="container mx-auto">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div className="relative order-2 lg:order-1">
@@ -50,7 +50,7 @@ function FeaturesNovaTemplate() {
                   {features.map((feature, idx) => (
                     <div
                       key={idx}
-                      className="group p-6 rounded-xl bg-secondary/20 hover:bg-primary hover:text-white transition-all duration-300"
+                      className="group p-6 rounded-xl bg-quartenary hover:bg-primary hover:text-white transition-all duration-300"
                     >
                       <div className="w-10 h-10 rounded-full bg-white text-primary mb-4 flex items-center justify-center shadow-sm group-hover:scale-110 transition-transform">
                         {feature.icon}

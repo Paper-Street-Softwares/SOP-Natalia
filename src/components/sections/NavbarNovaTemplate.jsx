@@ -30,16 +30,16 @@ function NavbarNovaTemplate() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent bg-transparent  ${
           isScrolled
-            ? 'bg-white/90 backdrop-blur-md shadow-sm py-2 border-shadowHero/10'
-            : 'bg-transparent border-border/40 py-3'
+            ? 'bg-white/90 backdrop-blur-md py-2 shadow-sm border-shadowHero/10 h-auto'
+            : 'bg-transparent border-border/40 py-3 phone2:h-auto'
         }`}
       >
-        <div className="container mx-auto flex items-center m-auto max-w-[1215px] w-[90%] md:w-[86%] justify-between">
-          <div className="flex flex-col z-50 relative w-[200px]">
+        <div className="container mx-auto flex items-center m-auto max-w-[1215px] h-full w-[90%] justify-between py-4 phone3:py-6 desktop1:py-6 desktop1:max-h-24">
+          <div className="flex flex-col z-50 relative w-[200px] phone2:w-[250px] phone3:w-[280px] tablet1:w-[300px] desktop3:w-[400px]">
             <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
-              className="w-[60%] tablet1:w-[70%] desktop1:w-[80%]"
+              className="w-full desktop3:m-4"
               width={160}
               height={102}
             />
@@ -109,8 +109,9 @@ function NavbarNovaTemplate() {
                   {labels.map((item, index) => (
                     <Link
                       to={ids[index]}
+                      href={`#${ids[index]}`} // 👈 força href
                       aria-label={`Link para ${item}`}
-                      smooth={true}
+                      smooth
                       duration={500}
                       offset={-90}
                       onClick={() => setActive(index)}
@@ -119,7 +120,6 @@ function NavbarNovaTemplate() {
                       }`}
                     >
                       {item}
-                      {/* <hr className=" w-full" /> */}
                     </Link>
                   ))}
                   <ButtonReflexo
